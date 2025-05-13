@@ -1,5 +1,5 @@
 # 420fuck
-The lead repository for the 420fuck compiler.
+The lead repository for the 420fuck interpreter.
 
 This uses an updated and refactored version of http://code.activestate.com/recipes/134892/
 
