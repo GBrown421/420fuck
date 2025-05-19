@@ -18,7 +18,7 @@ def execute(filename):
     """
 
     #Check if this is a valid 420fuck file
-    if filename[-8:] == ".420" or filename[-8:] == ".420.txt":
+    if filename[-4:] == ".420" or filename[-8:] == ".420.txt":
 
       with open(filename, "rt") as f:
           evaluate(f.read())
@@ -108,7 +108,7 @@ def cleanup(code):
     
     #Removes invalid characters from the code.
 
-    valid_commands = ['4', '2', '0', '.', ',', '[', ']', '<', '>', '+', '-', '_']
+    valid_commands = ['w', 'e', 'd', '4', '2', '0', '.', ',', '[', ']', '<', '>', '+', '-', '_']
     return ''.join(filter(lambda x: x in valid_commands, code))
 
 
